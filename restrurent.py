@@ -111,7 +111,7 @@ If you are unsure of exact restaurant names for the city, say they are suggestio
     with st.spinner("Finding restaurants..."):
 
         response = client.models.generate_content(
-            model="gemini-3.6-flash",
+            model="gemini-3.5-flash",
             contents=prompt
         )
 
